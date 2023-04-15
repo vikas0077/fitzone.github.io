@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" IE="edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> form </title>
+    <link rel="stylesheet" href="FORM.CSS">
+</head>
+
+<body>
+    <div class="main">
+        <a href="index.html" class="logo">
+			<img style="width: 200px;  margin-left: 25%;  margin-top: 5px;" src="logo.png">
+            </a>
+
+        <div class="register">
+            <h1><b>REGISTER</b></h1>
+            <form action="backend.php" method="POST">
+            <br>
+                <div>
+                    NAME:<br> <input type="text" name="name" id="name" placeholder="Enter your First Name">
+                </div>
+                <br>
+                
+                <div>
+                    DOB:<br> <input type="date" name="dob" id="name" placeholder="Enter your date-of-birth">
+                </div>
+                <br>
+                <div>
+                    E-MAIL:<br> <input type="e-mail" name="email" id="name" placeholder="Enter your e-mail">
+                </div>
+                <br>
+               
+                <div>
+                    PHONE NUMBER:<br> <input type="tel"  name="phonenumber" id="name" placeholder="Enter your phone number">
+                </div>
+                <br>
+                <div>
+                    ADDRESS:<br> <input type="address" name="address" id="name" placeholder="Enter your address">
+                </div>
+                <br>
+                <br>
+                <div> GENDER: <br>
+                    <select id="name" name="gender">
+                        <option selected="" value="">Choose One (Optional)</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        
+
+                    </select>
+                    
+
+<br>
+                     <button type="register" id="register" class="btn btn-primary" name="register_btn"><b> REGISTER</b></button>
+                                     
+                                               
+                    </div>
+                </div>
+                
+
+        </div>
+
+        
+        </form>
+
+       
+
+</body>
+</html>
